@@ -1,7 +1,7 @@
 'use client'
 import { FaShoppingCart, FaHeart } from 'react-icons/fa';
-import  useCart  from '@/app/cart' ;
-import { useWishlist } from ;
+import { useCart } from '@/app/context/CartContext';
+import { useWishlist } from '@/app/context/WishlistContext';
 import Image from 'next/image';
 import Link from 'next/link';
 
